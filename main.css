@@ -8,10 +8,10 @@ body {
 	background-repeat: no-repeat;
 	height: 45rem;
 	border: 0.25rem solid black;
+	padding-top: 1.2rem;
 	}
 
-.jumbotron h3 {
-	font-size: 2.5rem;
+.jumbotron h1 {
 	color: white;
 	font-family: sans-serif;
 }
