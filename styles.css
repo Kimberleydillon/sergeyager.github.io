@@ -29,15 +29,6 @@
     margin-top: 25px;
 }
 
-ul .descrip_list {
-    list-style-type: disc;
-    font-weight: 300;
-}
-
-#descrip p {
-    margin-left: 35px;
-}
-
 .paypal-button {
     margin-left: 15px;
 }
@@ -112,10 +103,32 @@ ul .descrip_list {
     font-family: "Playfair Display SC";
     color: #5f6a7b;
     font-size: 25px;
-    padding-top: 15px;
     padding-left: 15px;
-    font-weight: 600;
+    font-weight: 800;
     line-height: 1.125;
+    text-transform: capitalize;
+
+    /* In mobile padding top :0  */
+}
+
+ul .descrip_list {
+    list-style-type: disc;
+    font-weight: 300;
+}
+
+#descrip p {
+    margin-left: 35px;
+
+    /* in mobile margin-left: 25px; */
+}
+
+
+.column #product-description-column {
+    padding: 0; 
+    margin-top: 20px
+
+    /* in desktop only margin-left: 65px
+    margin-bottom: 5px; */
 }
 
 
